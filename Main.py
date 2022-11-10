@@ -51,7 +51,7 @@ while True:
                     print(f'downloaded {yt.title}')
                     droid.makeToast(f'downloaded {yt.title} [{downloads}]😊')
                  else:
-                    if ((p420.filesize/(1024*1024) - (p360.filesize/(1024*1024)) <= 3: #if size difference is less than or equals 3mb
+                    if ((p420.filesize/(1024*1024)) - (p360.filesize/(1024*1024))) <= 3: #if size difference is less than or equals 3mb
                         p420.download()
                         droid.makeToast(f'downloaded {yt.title} [{downloads}]😊')
                     else:

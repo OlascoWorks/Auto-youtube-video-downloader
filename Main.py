@@ -5,7 +5,8 @@ droid = androidhelper.Android()
 download_list = []
 downloaded_list = []
 downloads = 0
-l = list(droid.getClipboard()[1])
+link = list(droid.getClipboard()[1])
+l = list(link)
 
 p360_list = ['1', '3', '36', '360', '360p'] #list of acceptable inputs for 360p
 p480_list = ['2', '4', '48', '480', '480p'] #list of acceptable inputs for 480p
